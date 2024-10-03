@@ -45,7 +45,7 @@ class Bankloan(models.Model):
     customerloan_purpose =models.CharField(max_length=500)
 
 class BankloanAdmin(admin.ModelAdmin):
-    list_display = ('customerid', 'customerrate', 'age', 'cust_no', 'customerloan_purpose')
+    list_display = ('customerid', 'customerrate', 'age', 'cust_no', 'loan_purpose')
 ```
 
 
